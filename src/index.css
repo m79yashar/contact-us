@@ -1,0 +1,202 @@
+@font-face {
+  font-family: Yekan;
+  src: url(./B_Yekan/Yekan.ttf);
+}
+
+body{
+  background-image: url(Simple.svg);
+  font-family: Yekan;
+}
+.App{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 1200px;
+  height: 800px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px rgb(161, 161, 161);
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+.header img{
+  margin: 10px 5px 0 0;
+  width: 224px;
+  height: 81.63px;
+}
+.bod{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.bod-right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: right;
+}
+.bod-right h1{
+  font-size:70px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-right: 20px;
+  color: rgb(4, 74, 227);
+}
+.bod-right p{
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: rgb(35, 152, 254);
+}
+.bod-left{
+  width: 40%;
+  margin-right: 80px;
+}
+
+.bod-left img{
+  width: 600px;
+  height: 500px;
+  margin-top: 100px;
+}
+button{
+  background-color: rgb(4, 74, 227);
+  width: 150px;
+  height: 40px;
+  margin-right: 200px;
+  color: white;
+  border-radius: 20px;
+  border:0;
+  font-size: larger;
+  font-family: Yekan;
+}
+.number{
+  margin-top: 30px;
+}
+form{
+  margin-right: 20px;
+}
+input,textarea{
+  text-align: right;
+  width: 250px;
+  height: 40px;
+  background-color: aliceblue;
+  border: 2px solid rgb(35, 152, 254);
+  border-radius: 10px;
+  color: rgb(35, 152, 254);
+  font-family: Yekan;
+
+}
+#name{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+#select{
+  text-align: right;
+  width: 260px;
+  background-color: aliceblue;
+  border: 2px solid rgb(35, 152, 254);
+  border-radius: 10px;
+  color: rgb(35, 152, 254);
+  margin-right: 100px;
+  height: 50px;
+}
+label{
+  font-size: 20px;
+  color: rgb(35, 152, 254);
+}
+#phone{
+  margin: 10px 60px 0 0;
+}
+#title{
+  margin-top: 10px;
+  margin-right: 25px;
+}
+#requeste{
+  height: 70px;
+  margin-top: 10px;
+  margin-right: 35px;
+}
+
+@media screen and (max-width: 420px){
+
+  .container{
+    width: 95%;
+    height: 800px;
+  }
+  
+  .header img{
+    width: 200px;
+    height: 71.63px;
+  }
+  .bod{
+    display: flex;
+    flex-direction: column;
+  }
+  .bod-right{
+    width: 100%;
+  }
+  .bod-right h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size:40px;
+    
+  }
+  .bod-right p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    
+  }
+  button{
+    margin-right: 160px;
+  }
+  .bod-left img{
+    display: none;
+    
+  }
+  .bod-left{
+    display: flex;
+    flex-direction: center;
+  }
+  .number{
+    margin-right: 100px;
+  }
+  label{
+    font-size: 15px;
+    
+  }
+  #name{
+    margin-top: 10px;
+    margin-right: 38px;
+  }
+  #select{
+    width: 200px;
+    height: 40px;
+  }
+  input,textarea{
+    width: 190px;
+    height: 35px;
+    font-family: Yekan;
+  
+  }
+  #phone{
+    margin: 10px 70px 0 0;
+  }
+  #title{
+    margin-top: 10px;
+    margin-right: 45px;
+  }
+  #requeste{
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+
+}
